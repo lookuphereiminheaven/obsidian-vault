@@ -1,0 +1,21 @@
+- User-Controlled Input for Requests
+  - Like SQL injection, but instead of injecting code into a database query, the attacker injects a malicious URL or network address into a request handler
+  - The vulnerability arises if the application doesn't strictly validate this input. An attacker can manipulate the input to point to unintended locations
+-  Loopback Interface and Localhost
+  - http://127.0.0.1/
+  - http://localhost/
+  - Loopback requests bypass external firewalls or network segmentation, as they're not traversing the public internet. This exploits the implicit trust many applications place in local-origin requests
+-  Bypassing Access Controls
+  - administrative interfaces (like /admin) might only allow access from specific IP ranges, such as localhost
+  - This is a form of "confused deputy" problem, where the server (the deputy) has elevated privileges and is misled into using them for the attacker's benefit. It's not about authentication tokens per se, but about origin-based trust
+- HTTP Requests
+  - SSRF typically involves HTTP/HTTPS requests, but it can extend to other protocols like FTP, SMTP, or even non-HTTP
+  - modifies a POST request's parameter (stockApi) to point internally. The server then uses this parameter to make a backend fetch, which could involve tools like HTTP clients in the application's code (e.g., in languages like Java, Python, or Node.js
+  - Headers, methods (GET/POST), and content types can be manipulated, but the core is the URL itself. Attackers might encode parts of the URL (e.g., using %3F for '?') to evade basic filters
+- Potential Impacts and Escalation
+  - SSRF can reveal sensitive internal data, such as metadata from cloud services (e.g., AWS instance metadata at http://169.254.169.254/), configuration files, or database endpoints
+  - By crafting requests to various internal IPs and ports, attackers can map out hidden networks, identifying services like databases or admin panels
+  - (DoS): Repeated requests to resource-intensive internal endpoints could overload the server
+  - (RCE): In severe cases, if the internal service is vulnerable, SSRF can chain into executing arbitrary code
+  - Blind SSRF: Sometimes, the response isn't directly returned to the attacker (e.g., if it's a one-way request). Attackers infer success through side effects, like timing differences or error messages
+  - 

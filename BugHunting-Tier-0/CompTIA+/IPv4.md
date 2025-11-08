@@ -1,0 +1,53 @@
+Purpose of IP
+  - The location of the PC or server, identified as both network location and host location within the network
+  - Unlike MAC that is physically embedded into the device, IP can change
+- IPv4 address properties
+  - IPv4 is a 32-bit binary number, 2‎‌ to the power of 32 possible combinations
+  - Divided into 4 octets separated by periods which is equal to one byte
+  - Requires the use of a subnet mask to determine which part defines the network and which defines the node.
+  - Subnet mask has the same format of IP
+  - First 3 octets are network address and the last one is the node address
+- Classes of IPv4
+  - Class A
+    - 0.0.0.0 to 127.255.255.255
+    - Binary representation = 1XXXXXXX
+    - Node addresses available = 16,777,214
+    - Subnet mask = 255.0.0.0
+  - Class B
+    - 128.0.0.0 to 191.255.255.255
+    - Binary representation = 10XXXXXX
+    - Node addresses available = 65,534
+    - Subnet mask = 255.255.0.0
+  - Class C
+    - 192.0.0.0 to 223.255.255.255
+    - Binary representation = 110XXXXX
+    - Node addresses available = 254
+    - Subnet mask = 255.255.255.0
+  - Class D
+    - 224.0.0.0 to 239.255.255.255
+    - Binary representation = 1110XXXX
+    - No subnet mask
+    - Used for multicast comm
+  - Automatic Private IP Addressing - APIPA
+    - When a DHCP fails a node will self configure an APIPA address
+    - Address range = 168,254 in the first octet
+- Other classes
+  - Public IP
+    - Routable
+    - Must be unique
+    - Not flexible
+  - Private IP
+    - Non-routable
+    - 10.0.0.0 to 10.255.255.255 (1 class A license)
+    - 172.16.0.0 to 172.31.255.255 (16 class B licenses)
+    - 192.168.0.0 to 198.168.255.255 (256 class C licenses)
+    - Highly flexible
+- CIDR notation
+  - 192.168.0.9 255.255.255.0 becomes 192.168.0.9/24
+  - 192.168.128.0/23 = subnet mask of 255.255.128.0
+  - Network = 192.168.128.0
+  - Host range = 192.168.128.1 to 192.168.129.254 (512)
+  - Broadcast address = 192.168.129.255
+- Subnetting
+  - Creates flexibility in network design
+  - Creates efficiency in address space utilization

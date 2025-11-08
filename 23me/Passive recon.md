@@ -1,0 +1,30 @@
+- whois 23andme.com
+   - - **Registrant organization:** 23andMe, Inc. — domain is owned by the company, not an individual.
+   - **Registrar:** MarkMonitor, Inc. — a brand‑protection registrar commonly used by enterprises.
+   - **Name servers / DNS provider:** alina.ns.cloudflare.com,
+- curl api.certspotter
+   - certs_dnsnames.txt
+- dig for
+   - A
+     - 104.16.182.73
+     - 104.16.183.73
+   - AAAA
+     - 2606:4700::6810:b649
+     - 2606:4700::6810:b749
+   - MX
+     - 10 alt4.aspmx.l.google.com.
+     - 5 alt2.aspmx.l.google.com.
+     - 10 alt3.aspmx.l.google.com.
+     - 5 alt1.aspmx.l.google.com.
+     - 1 aspmx.l.google.com.
+   - NS
+     - alina.ns.cloudflare.com.
+     - jason.ns.cloudflare.com.
+   - TXT
+     - `curl -s "https://crt.sh/?q=%25.23andme.com&output=json" \ | jq -r '.[].name_value' \ sort -u > crtsh_names.txt`
+- Historical DNS
+  - SecurityTrails, OSINT.sh, whoisfreaks, completeddns
+  - use waybackurls to sort and grep '(\.js|\.jsp|\.php|\.aspx|/api/|\?|\.bak|\.old|\.zip)'
+    - `/root/go/bin/waybackurls 23andme.com \ | sort -u \ | grep -E '(\.js|\.jsp|\.php|\.aspx|/api/|\?|\.bak|\.old|\.zip)' \ wayback_23andme_urls.txt
+- 
+`

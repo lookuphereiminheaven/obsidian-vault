@@ -1,0 +1,22 @@
+Network Address Translation
+- Solves the problem of how to route non-routable IP address
+- Static NAT - SNAT
+  - Each private IP is assigned a routable IP
+  - Not flexible and leads to scalability issues
+- Dynamic NAT - DNAT
+  - Dynamically assigns a routable IP from a reusable pool of IPs
+  - More flexible but still scalability issues
+  - Pool size increases dynamically
+- Port Address Translation - PAT
+  - A type of DNAT developed to increase scalability of NAT
+  - Assigns IP and port
+  - Smaller pool size
+- Terminology
+  - Inside local address
+    - A private IP on local network
+  - Inside global address
+    - A public IP referencing an inside device
+  - Outside global address
+    - A public IP assigned to a device outside of local network
+  - Outside local address
+    - A private IP assigned to a device outside of the local network
