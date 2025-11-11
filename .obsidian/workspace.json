@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BugHunting-Tier-0/Vulns/Server-Side/Web Cache cleaned-up.md",
-                "mode": "preview",
+                "file": "BugHunting-Tier-0/HTTP/Digest Auth.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Cache cleaned-up"
+              "title": "Digest Auth"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BugHunting-Tier-0/Vulns/Server-Side/Web Cache cleaned-up.md",
+                "file": "BugHunting-Tier-0/HTTP/Digest Auth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Web Cache cleaned-up"
+              "title": "Outline of Digest Auth"
             }
           }
         ],
@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,46 +173,46 @@
   },
   "active": "cda38e42b11f7d48",
   "lastOpenFiles": [
+    "BugHunting-Tier-0/HTTP/Basic Auth.md",
+    "BugHunting-Tier-0/HTTP/Digest Auth.md",
+    "BugHunting-Tier-0/HTTP/Client Identification and Cookies.md",
+    "BugHunting-Tier-0/HTTP/Http NG.md",
+    "BugHunting-Tier-0/HTTP/Web Robots.md",
+    "BugHunting-Tier-0/HTTP/Gateways, Tunnels, and Relays.md",
+    "BugHunting-Tier-0/HTTP/Caching.md",
+    "BugHunting-Tier-0/HTTP/Proxies.md",
+    "BugHunting-Tier-0/HTTP/Web Foundation.md",
+    "BugHunting-Tier-0/CompTIA+/IPv4.md",
+    "BugHunting-Tier-0/CompTIA+/Network Topology.md",
+    "BugHunting-Tier-0/CompTIA+/WAN.md",
+    "BugHunting-Tier-0/CompTIA+/NAT.md",
+    "BugHunting-Tier-0/CompTIA+/DHCP & DNS.md",
+    "BugHunting-Tier-0/CompTIA+/Networking services and applications.md",
+    "BugHunting-Tier-0/CompTIA+/Network Devices.md",
+    "BugHunting-Tier-0/CompTIA+/Network Media.md",
+    "BugHunting-Tier-0/CompTIA+/Network Communication.md",
+    "BugHunting-Tier-0/CompTIA+/Network.md",
+    "BugHunting-Tier-0/HTTP/Web Servers.md",
+    "BugHunting-Tier-0/HTTP/Connection Management.md",
+    "BugHunting-Tier-0/HTTP/HTTP Messages.md",
+    "BugHunting-Tier-0/HTTP/URLs and Resources.md",
+    "BugHunting-Tier-0/HTTP",
     "BugHunting-Tier-0/Vulns/Server-Side/Web Cache.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/OS command.md",
     "BugHunting-Tier-0/Vulns/Server-Side/Web Cache cleaned-up.md",
+    "BugHunting-Tier-0/Vulns/Server-Side/OS command.md",
     "New folder",
-    "BugHunting-Tier-0/Vulns/Client-Side/CSRF clean.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/SSRF.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/Path Traversal.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/LFI/htaccess.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/LFI/Obfuscation.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/LFI/Concept & Methods.md",
-    "BugHunting-Tier-0/Vulns/Client-Side/CSRF.md",
-    "Untitled.md",
-    "Checklist/Headers.md",
     "BugHunting-Tier-0/Vulns/Client-Side",
-    "Tools/Script for login bruteforce.md",
     "Checklist",
     "Pasted image 20251107181028.png",
     "site-vs-origin.png",
     "Pasted image 20251107180812.png",
-    "BugHunting-Tier-0/Vulns/Server-Side/SQL/Cheat Sheet.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/SQL/Logic.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/SQL/SQLi.md",
-    "23me/Passive recon.md",
-    "23me/Explanation.md",
     "Untitled 8.base",
     "Untitled 1",
     "23me",
     "Untitled 5.base",
     "Untitled 7.base",
     "Untitled 6.base",
-    "Untitled 4.base",
-    "2025-11-02.md",
-    "Tools/Untitled.md",
     "Pasted image 20251030145045.png",
-    "Tools/Nmap/Scans.md",
-    "BugHunting-Tier-0/HTTP.md",
-    "BugHunting-Tier-0/CompTIA+/IPv6.md",
-    "BugHunting-Tier-0/CompTIA+/IPv4.md",
-    "BugHunting-Tier-0/CompTIA+/Network Topology.md",
-    "BugHunting-Tier-0/CompTIA+/WAN.md",
     "Pasted image 20251028164604.png",
     "Pasted image 20251028164515.png",
     "Pasted image 20251018190028.png",
