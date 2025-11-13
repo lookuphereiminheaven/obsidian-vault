@@ -8,35 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cda38e42b11f7d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BugHunting-Tier-0/Vulns/Server-Side/Web Cache cleaned-up.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Web Cache cleaned-up"
-            }
-          },
-          {
             "id": "43eddbd7248871aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BugHunting-Tier-0/Vulns/Server-Side/API Testing/API.md",
+                "file": "Tools/Untitled.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "API"
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "09b11ea681f5f810",
@@ -189,10 +174,23 @@
   },
   "active": "43eddbd7248871aa",
   "lastOpenFiles": [
+    "Notes.md",
     "Pasted image 20251112222942.png",
+    "BugHunting-Tier-0/HTTP/Logging & Usage Tracking.md",
+    "BugHunting-Tier-0/HTTP/Untitled.md",
+    "BugHunting-Tier-0/HTTP/Redirection & Load Balancing.md",
+    "BugHunting-Tier-0/HTTP/Publishing Systems.md",
+    "BugHunting-Tier-0/HTTP/Web Hosting.md",
+    "Untitled.md",
+    "BugHunting-Tier-0/HTTP/Content Negotiations.md",
+    "BugHunting-Tier-0/HTTP/Internalization.md",
+    "Checklist/Headers.md",
+    "BugHunting-Tier-0/Vulns/Server-Side/API Testing/Parameter Pollution.md",
+    "BugHunting-Tier-0/Vulns/Server-Side/API Testing/API.md",
+    "BugHunting-Tier-0/Vulns/Server-Side/API Testing/Untitled",
+    "BugHunting-Tier-0/Vulns/Server-Side/Web Cache cleaned-up.md",
     "BugHunting-Tier-0/Vulns/Server-Side/API Testing",
     "BugHunting-Tier-0/Vulns/Server-Side/CORS.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/API Testing/API.md",
     "BugHunting-Tier-0/Vulns/Server-Side/OS command.md",
     "BugHunting-Tier-0/Vulns/Server-Side/SSRF.md",
     "BugHunting-Tier-0/Vulns/Server-Side/Path Traversal.md",
@@ -200,23 +198,12 @@
     "BugHunting-Tier-0/Vulns/Server-Side/LFI/Obfuscation.md",
     "BugHunting-Tier-0/Vulns/Server-Side/LFI/Concept & Methods.md",
     "BugHunting-Tier-0/Vulns/Client-Side/CSRF.md",
-    "BugHunting-Tier-0/HTTP/Internalization.md",
     "BugHunting-Tier-0/HTTP/Securing HTTP.md",
     "BugHunting-Tier-0/HTTP/Entities and Encodings.md",
     "BugHunting-Tier-0/CompTIA+/Network Devices.md",
     "BugHunting-Tier-0/CompTIA+/Network Media.md",
     "BugHunting-Tier-0/CompTIA+/Network.md",
-    "23me/Explanation.md",
-    "23me/Passive recon.md",
-    "BugHunting-Tier-0/HTTP/Digest Auth.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/Web Cache cleaned-up.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/Web Cache.md",
-    "Notes.md",
     "Untitled",
-    "BugHunting-Tier-0/HTTP/Basic Auth.md",
-    "BugHunting-Tier-0/HTTP/Client Identification and Cookies.md",
-    "BugHunting-Tier-0/HTTP/Http NG.md",
-    "BugHunting-Tier-0/HTTP/Web Robots.md",
     "BugHunting-Tier-0/HTTP",
     "New folder",
     "BugHunting-Tier-0/Vulns/Client-Side",
@@ -227,14 +214,12 @@
     "Untitled 8.base",
     "Untitled 1",
     "23me",
-    "Untitled 5.base",
     "Pasted image 20251030145045.png",
     "Pasted image 20251028164604.png",
     "Pasted image 20251028164515.png",
     "Pasted image 20251018190028.png",
     "Pasted image 20251019203539.png",
     "Pasted image 20251019181648.png",
-    "photo_5935954814267673230_w(1).jpg",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas",
