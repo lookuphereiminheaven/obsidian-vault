@@ -15,7 +15,7 @@
     - Mostly Ethernet
     - Nodes are directly connected to one another by cable or short-range wireless
     - No need to be leased from a service provider
-  - [WAN](WAN) - Wide Area Network
+  - [WAN](WAN.md) - Wide Area Network
     - Large area, often multiple areas
     - Connects multiple LANs
     - Uses long-range communication like satellite, radio frequency

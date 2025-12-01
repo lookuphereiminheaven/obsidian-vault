@@ -11,15 +11,34 @@
             "id": "43eddbd7248871aa",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20251028164515.png"
+                "file": "BugHunting/Operating Systems/Threads.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251028164515"
+              "icon": "lucide-file",
+              "title": "Threads"
+            }
+          },
+          {
+            "id": "ee24e6e718bcc092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Checklist/Headers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Headers"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BugHunting-Tier-0/Vulns/Server-Side/Web Cache.md",
+                "file": "BugHunting/Operating Systems/Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Web Cache"
+              "title": "Backlinks for Threads"
             }
           },
           {
@@ -140,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BugHunting-Tier-0/HTTP/Digest Auth.md",
+                "file": "BugHunting/Operating Systems/Threads.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Digest Auth"
+              "title": "Outline of Threads"
             }
           }
         ],
@@ -169,57 +188,58 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43eddbd7248871aa",
+  "active": "ee24e6e718bcc092",
   "lastOpenFiles": [
+    "GolGohar/Passive.md",
+    "Checklist/Headers.md",
+    "BugHunting/Diagram.md",
+    "Roadmap/6-Month.md",
+    "Roadmap/Roadmap.md",
+    "Roadmap/6-Months.md",
+    "LPIC/Streams, Pipes, Redirects.md",
+    "Roadmap",
+    "LPIC/File Management.md",
+    "BugHunting/Operating Systems/Threads.md",
+    "Pasted image 20251201133431.png",
+    "LPIC/Text Streams and Filtering.md",
+    "LPIC/Shells and Bash.md",
+    "LPIC/Design hard disk layout.md",
+    "LPIC/Manage shared libraries.md",
+    "LPIC/Change runlevels.md",
+    "LPIC/Boot the System.md",
+    "LPIC/Determine and configure hardware settings.md",
+    "2025-11-30.md",
+    "LPIC",
+    "BugHunting/Operating Systems/Process Management.md",
+    "Daily Journal/2025-11-13.md",
+    "Tools/Untitled.md",
+    "Tools/Script for login bruteforce.md",
+    "Tools/Nmap/Scans.md",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
+    "site-vs-origin.png",
+    "2025-11-20.md",
+    "2025-11-17.md",
+    "2025-11-16.md",
+    "BugHunting/Methodology.md",
+    "Untitled.canvas",
+    "mermaid-diagram.svg",
+    "GolGohar",
+    "BugHunting/Operating Systems",
+    "Pasted image 20251028164515.png",
     "Pasted image 20251028164604.png",
     "Pasted image 20251030145045.png",
     "Pasted image 20251107180812.png",
-    "site-vs-origin.png",
     "Pasted image 20251116183030.png",
     "Pasted image 20251107181028.png",
     "Pasted image 20251112222942.png",
-    "Screenshot 2025-11-16 at 18-25-27 The Web Application Hacker's Handbook Finding and Exploiting Security Flaws (2nd edition) - Dafydd Stuttard Marcus Pinto - The web application hacker's handbook_ finding and exploiting securi[...] 1.png",
-    "Screenshot 2025-11-16 at 18-25-27 The Web Application Hacker's Handbook Finding and Exploiting Security Flaws (2nd edition) - Dafydd Stuttard Marcus Pinto - The web application hacker's handbook_ finding and exploiting securi[...].png",
-    "2025-11-16.md",
-    "Daily Journal/2025-11-13.md",
-    "BugHunting-Tier-0/Methodology.md",
-    "Daily Journal/2025-11-15.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Web Hacker’s Methodology.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Web Hacker’s Toolkit.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Finding Vuln in Source Code.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking the App Server.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking App Architecture.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Native Compiled App.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Exploiting Info Disclosure.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Bypassing Client-Side Controls.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Authentication.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Session Management.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Access Controls.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Data Stores.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Back-End.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking App Logic.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Users - XSS.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Attacking Users - Others.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Automating.md",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook/Web Application (In)security.md",
-    "BugHunting-Tier-0/Vulns/Client-Side/Authentication.md",
-    "BugHunting-Tier-0/Vulns/Server-Side/API Testing/Parameter Pollution.md",
-    "Tools/Untitled.md",
     "Grammarly",
-    "BugHunting-Tier-0/Web Application Hacker's Handbook",
+    "BugHunting/Web Application Hacker's Handbook",
     "Daily Journal/Untitled.canvas",
-    "Daily Journal/Untitled.base",
-    "Daily Journal",
-    "BugHunting-Tier-0/Vulns/Server-Side/API Testing/Untitled",
-    "BugHunting-Tier-0/Vulns/Server-Side/API Testing",
-    "BugHunting-Tier-0/HTTP",
-    "New folder",
-    "BugHunting-Tier-0/Vulns/Client-Side",
-    "Checklist",
-    "Pasted image 20251028164515.png",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "Untitled.canvas",
     "BugHunting/Untitled.canvas"
   ]
 }
